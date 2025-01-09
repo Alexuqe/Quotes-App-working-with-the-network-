@@ -6,30 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE6E5B9F2D30528100CEAFCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6E5B962D30528100CEAFCC /* Assets.xcassets */; };
+		CE6E5BA32D30528100CEAFCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E5B952D30528100CEAFCC /* AppDelegate.swift */; };
+		CE6E5BA42D30528100CEAFCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E5B9C2D30528100CEAFCC /* SceneDelegate.swift */; };
+		CE6E5BA52D30528100CEAFCC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E5B9D2D30528100CEAFCC /* MainViewController.swift */; };
+		CE6E5BAD2D3053D600CEAFCC /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E5BAC2D3053D600CEAFCC /* Quotes.swift */; };
+		CE6E5BAF2D3055F400CEAFCC /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E5BAE2D3055F400CEAFCC /* Links.swift */; };
+		CE6E5BCB2D3057BA00CEAFCC /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E5BCA2D3057BA00CEAFCC /* CustomCell.swift */; };
+		CE6E5BCE2D305B6500CEAFCC /* TableViewDelegate + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E5BCD2D305B6500CEAFCC /* TableViewDelegate + extension.swift */; };
+		CE6E5BD02D305B7F00CEAFCC /* TableViewDataSources + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E5BCF2D305B7F00CEAFCC /* TableViewDataSources + extension.swift */; };
+		CE6E5BD32D3074FF00CEAFCC /* Network + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E5BD22D3074FF00CEAFCC /* Network + extension.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CE6E5B7D2D30526C00CEAFCC /* Quotes App (working with the network).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quotes App (working with the network).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6E5B952D30528100CEAFCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE6E5B962D30528100CEAFCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE6E5B972D30528100CEAFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6E5B9C2D30528100CEAFCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE6E5B9D2D30528100CEAFCC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CE6E5BAC2D3053D600CEAFCC /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		CE6E5BAE2D3055F400CEAFCC /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		CE6E5BCA2D3057BA00CEAFCC /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		CE6E5BCD2D305B6500CEAFCC /* TableViewDelegate + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewDelegate + extension.swift"; sourceTree = "<group>"; };
+		CE6E5BCF2D305B7F00CEAFCC /* TableViewDataSources + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewDataSources + extension.swift"; sourceTree = "<group>"; };
+		CE6E5BD22D3074FF00CEAFCC /* Network + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network + extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CE6E5B8F2D30526F00CEAFCC /* Exceptions for "Quotes App (working with the network)" folder in "Quotes App (working with the network)" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = CE6E5B7C2D30526C00CEAFCC /* Quotes App (working with the network) */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CE6E5B7F2D30526C00CEAFCC /* Quotes App (working with the network) */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CE6E5B8F2D30526F00CEAFCC /* Exceptions for "Quotes App (working with the network)" folder in "Quotes App (working with the network)" target */,
-			);
-			path = "Quotes App (working with the network)";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE6E5B7A2D30526C00CEAFCC /* Frameworks */ = {
@@ -45,7 +48,7 @@
 		CE6E5B742D30526C00CEAFCC = {
 			isa = PBXGroup;
 			children = (
-				CE6E5B7F2D30526C00CEAFCC /* Quotes App (working with the network) */,
+				CE6E5B9E2D30528100CEAFCC /* Quotes App (working with the network) */,
 				CE6E5B7E2D30526C00CEAFCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +59,96 @@
 				CE6E5B7D2D30526C00CEAFCC /* Quotes App (working with the network).app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6E5B9E2D30528100CEAFCC /* Quotes App (working with the network) */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E5BA72D3052C800CEAFCC /* ViewControllers */,
+				CE6E5BAA2D3052F100CEAFCC /* Views */,
+				CE6E5BA92D3052DF00CEAFCC /* Data */,
+				CE6E5BA62D30529600CEAFCC /* Model */,
+				CE6E5BA82D3052D600CEAFCC /* Sources */,
+				CE6E5BAB2D3052FD00CEAFCC /* App */,
+			);
+			path = "Quotes App (working with the network)";
+			sourceTree = "<group>";
+		};
+		CE6E5BA62D30529600CEAFCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E5BAC2D3053D600CEAFCC /* Quotes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE6E5BA72D3052C800CEAFCC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E5B9D2D30528100CEAFCC /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE6E5BA82D3052D600CEAFCC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E5B962D30528100CEAFCC /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CE6E5BA92D3052DF00CEAFCC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E5BAE2D3055F400CEAFCC /* Links.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CE6E5BAA2D3052F100CEAFCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E5BCC2D3057DC00CEAFCC /* Cells */,
+				CE6E5BD12D305B8A00CEAFCC /* TableView + extension */,
+				CE6E5BD42D30767400CEAFCC /* Network */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE6E5BAB2D3052FD00CEAFCC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E5B952D30528100CEAFCC /* AppDelegate.swift */,
+				CE6E5B9C2D30528100CEAFCC /* SceneDelegate.swift */,
+				CE6E5B972D30528100CEAFCC /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE6E5BCC2D3057DC00CEAFCC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E5BCA2D3057BA00CEAFCC /* CustomCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE6E5BD12D305B8A00CEAFCC /* TableView + extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E5BCD2D305B6500CEAFCC /* TableViewDelegate + extension.swift */,
+				CE6E5BCF2D305B7F00CEAFCC /* TableViewDataSources + extension.swift */,
+			);
+			path = "TableView + extension";
+			sourceTree = "<group>";
+		};
+		CE6E5BD42D30767400CEAFCC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E5BD22D3074FF00CEAFCC /* Network + extension.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +165,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CE6E5B7F2D30526C00CEAFCC /* Quotes App (working with the network) */,
 			);
 			name = "Quotes App (working with the network)";
 			packageProductDependencies = (
@@ -122,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6E5B9F2D30528100CEAFCC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +223,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6E5BD32D3074FF00CEAFCC /* Network + extension.swift in Sources */,
+				CE6E5BAD2D3053D600CEAFCC /* Quotes.swift in Sources */,
+				CE6E5BCB2D3057BA00CEAFCC /* CustomCell.swift in Sources */,
+				CE6E5BAF2D3055F400CEAFCC /* Links.swift in Sources */,
+				CE6E5BA32D30528100CEAFCC /* AppDelegate.swift in Sources */,
+				CE6E5BD02D305B7F00CEAFCC /* TableViewDataSources + extension.swift in Sources */,
+				CE6E5BA42D30528100CEAFCC /* SceneDelegate.swift in Sources */,
+				CE6E5BCE2D305B6500CEAFCC /* TableViewDelegate + extension.swift in Sources */,
+				CE6E5BA52D30528100CEAFCC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,10 +247,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24Q9WM75S6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Quotes App (working with the network)/Info.plist";
+				INFOPLIST_FILE = "Quotes App (working with the network)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -160,9 +259,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "halushko.Quotes-App--working-with-the-network-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -175,10 +278,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24Q9WM75S6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Quotes App (working with the network)/Info.plist";
+				INFOPLIST_FILE = "Quotes App (working with the network)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -188,9 +290,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "halushko.Quotes-App--working-with-the-network-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
