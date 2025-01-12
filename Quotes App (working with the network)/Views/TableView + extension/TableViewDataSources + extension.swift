@@ -11,20 +11,16 @@ import UIKit
 extension MainViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        quotes?.quotes.count ?? 5
+        quotes.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: Cells.cellOne.identifier, for: indexPath)
         guard let cell = cell as? CustomCell else { return UITableViewCell() }
-        
-        if let quoteData = quotes?.quotes[indexPath.row] {
-            cell.authorLabel.text = quoteData.author
-            cell.quoteLabel.text = quoteData.quote
-        }
+        let quote = quotes[indexPath.row]
+        cell.set(with: quote)
 
         return cell
     }
-    
-
 }
+
